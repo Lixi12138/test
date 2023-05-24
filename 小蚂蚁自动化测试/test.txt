@@ -1,0 +1,105 @@
+test_1_login (test_1.myTest1) ... ok
+test_2_info (test_1.myTest1) ... ok
+test_1_login (test_2.myTest2) ... ok
+test_2_subject_query (test_2.myTest2) ... ok
+test_3_subject_add (test_2.myTest2) ... ok
+test_4_subject_del (test_2.myTest2) ... ok
+test_5_subject_detail (test_2.myTest2) ... ok
+test_1_login (test_3.myTest3) ... ok
+test_2_subject_query (test_3.myTest3) ... ok
+test_3_subject_add (test_3.myTest3) ... ok
+test_4_subject_del (test_3.myTest3) ... ok
+test_1_login (test_4.myTest4) ... ok
+test_2_user_query (test_4.myTest4) ... ok
+test_3_user_add (test_4.myTest4) ... ok
+test_4_user_del (test_4.myTest4) ... ok
+test_5 (unittest.loader._FailedTest) ... ERROR
+test_6 (unittest.loader._FailedTest) ... ERROR
+test_7 (unittest.loader._FailedTest) ... ERROR
+test_8 (unittest.loader._FailedTest) ... ERROR
+test_9 (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_5 (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_5
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\小蚂蚁自动化测试\test_5.py", line 3, in <module>
+    from user_page_objects.login_page import login_page
+  File "D:\小蚂蚁自动化测试\user_page_objects\login_page.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+======================================================================
+ERROR: test_6 (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_6
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\小蚂蚁自动化测试\test_6.py", line 3, in <module>
+    from user_page_objects.login_page import login_page
+  File "D:\小蚂蚁自动化测试\user_page_objects\login_page.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+======================================================================
+ERROR: test_7 (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_7
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\小蚂蚁自动化测试\test_7.py", line 3, in <module>
+    from user_page_objects.login_page import login_page
+  File "D:\小蚂蚁自动化测试\user_page_objects\login_page.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+======================================================================
+ERROR: test_8 (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_8
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\小蚂蚁自动化测试\test_8.py", line 3, in <module>
+    from user_page_objects.login_page import login_page
+  File "D:\小蚂蚁自动化测试\user_page_objects\login_page.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+======================================================================
+ERROR: test_9 (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_9
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\小蚂蚁自动化测试\test_9.py", line 3, in <module>
+    from user_page_objects.login_page import login_page
+  File "D:\小蚂蚁自动化测试\user_page_objects\login_page.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+----------------------------------------------------------------------
+Ran 20 tests in 118.921s
+
+FAILED (errors=5)
